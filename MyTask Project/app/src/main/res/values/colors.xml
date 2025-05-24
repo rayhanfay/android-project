@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme colors -->
+    <color name="colorPrimary">#2F3437</color>
+    <color name="colorPrimaryVariant">#1A1B1C</color>
+    <color name="colorSecondary">#E16259</color>
+    <color name="colorAccent">#2EAADC</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#F7F6F3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorText">#37352F</color>
+    <color name="colorTextSecondary">#787774</color>
+    <color name="colorTextTertiary">#A3A29E</color>
+    <color name="colorDivider">#EBECED</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+
+    <!-- Enhanced Dark Theme with proper tint coordination -->
+    <color name="colorPrimaryDark">#2F3437</color>  <!-- Dark gray for primary components -->
+    <color name="colorPrimaryVariantDark">#373D40</color>  <!-- Slightly lighter variant -->
+    <color name="colorOnPrimaryDark">#FFFFFF</color>  <!-- Pure white text on primary -->
+    <color name="colorSecondaryDark">#4A85D6</color>  <!-- Notion blue accent -->
+    <color name="colorOnSecondaryDark">#FFFFFF</color>
+    <color name="colorBackgroundDark">#121212</color>  <!-- True dark background -->
+    <color name="colorSurfaceDark">#1E1E1E</color>  <!-- Elevated surfaces -->
+
+    <!-- Optimized text colors -->
+    <color name="colorTextDark">#FFFFFF</color>
+    <color name="colorTextSecondaryDark">#E0E0E0</color>
+    <color name="colorTextTertiaryDark">#B0B0B0</color>
+
+    <color name="colorDividerDark">#424242</color>
+    <color name="colorAccentDark">#4A85D6</color>  <!-- Matching secondary -->
+
+    <!-- New color for tint overlays that won't clash -->
+    <color name="colorOverlayDark">#1AFFFFFF</color>  <!-- Subtle white overlay (10% opacity) -->
+
+</resources>

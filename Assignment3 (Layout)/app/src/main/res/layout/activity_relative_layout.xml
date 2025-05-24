@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Halaman Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txUsername"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txJudul"
+        android:text="Nama User"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txJudul"
+        android:layout_toEndOf="@+id/txUsername"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txPass"
+        android:text="Kata Kunci"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_toEndOf="@+id/txPass"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textSize="20sp"
+        android:layout_below="@+id/pass"
+        android:layout_marginStart="90dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Batal"
+        android:textSize="20sp"
+        android:layout_below="@+id/pass"
+        android:layout_toEndOf="@+id/btnLogin"/>
+</RelativeLayout>

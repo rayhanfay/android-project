@@ -1,0 +1,7 @@
+<resources>
+    <!-- Your existing strings -->
+    <string name="app_name">Tugas77</string>
+    <string name="judul">Alarm Manager</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="set_alarm_berulang">Set Alarm Berulang</string>
+</resources>

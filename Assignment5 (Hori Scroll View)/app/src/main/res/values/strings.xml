@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Belajar ScrollView</string>
+    <string name="teks">CONTOH TEKS</string>
+    <string name="judul">Horizontal Scroll View</string>
+</resources>

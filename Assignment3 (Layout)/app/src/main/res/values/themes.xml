@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Tugas3" parent="android:Theme.Material.Light.NoActionBar" />
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="warnaLatarApp">#FFF0A5</color>
+    <color name="warnaLatarAppTable">#82B6D9</color>
+    <color name="warnaTeksAppTable">#372D62</color>
+</resources>

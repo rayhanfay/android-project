@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.TaskMaster" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- Other styles -->
+        <item name="materialCardViewStyle">@style/Widget.TaskMaster.Card</item>
+        <item name="textInputStyle">@style/Widget.TaskMaster.TextInputLayout</item>
+    </style>
+
+    <style name="Widget.TaskMaster.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardBackgroundColor">@color/colorBackground</item>
+        <item name="strokeColor">@color/colorDivider</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.TaskMaster.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorAccent</item>
+        <item name="hintTextColor">@color/colorTextSecondary</item>
+        <item name="boxBackgroundColor">@color/colorBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Force dark mode for problematic views -->
+    <style name="ForceDarkBackground">
+        <item name="android:background">@color/colorBackgroundDark</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <!-- TextView styles for dark mode -->
+    <style name="TextAppearance.TaskMaster.Headline" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="TextAppearance.TaskMaster.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="TextAppearance.TaskMaster.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/colorTextSecondaryDark</item>
+    </style>
+</resources>

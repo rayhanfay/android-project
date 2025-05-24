@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Belajar Simple Gesture</string>
+    <string name="scroll">Efek Scroll</string>
+    <string name="single_tap">Efek Tekan Sekali</string>
+    <string name="double_tap">Efek Tekan Dua Kali</string>
+    <string name="long_press">Efek Tekan Lama</string>
+    <string name="fling">Efek Fling</string>
+</resources>

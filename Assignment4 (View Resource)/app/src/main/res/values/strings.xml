@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Belajar Intent</string>
+    <string name="activity_pertama">Activity Pertama</string>
+    <string name="menuju_activity_kedua">Menuju activity kedua</string>
+    <string name="tekan">Klik</string>
+    <string name="activity_kedua">Activity Kedua</string>
+    <string name="kembali">Kembali</string>
+</resources>

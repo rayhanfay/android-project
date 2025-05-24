@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BelajarTabLayout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="frag1">Halaman Inbox</string>
+    <string name="frag2">Halaman Draft</string>
+    <string name="frag3">Halaman Sent</string>
+    <string name="nama_user">Shumaya</string>
+    <string name="halaman_utama">Halaman Utama</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

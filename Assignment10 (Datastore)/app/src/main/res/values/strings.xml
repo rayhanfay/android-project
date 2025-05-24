@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Belajar Shared Preference</string>
+    <string name="nama">Masukkan Nama</string>
+    <string name="nim">Masukkan NIM</string>
+    <string name="save">Simpan Data</string>
+    <string name="read">Baca Data</string>
+</resources>

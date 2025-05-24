@@ -1,0 +1,113 @@
+<resources>
+    <style name="Theme.TaskMaster" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryDark</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorOnSecondaryDark</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/colorPrimaryVariantDark</item>
+        <item name="android:navigationBarColor">@color/colorBackgroundDark</item>
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/colorBackgroundDark</item>
+        <item name="android:colorBackground">@color/colorBackgroundDark</item>
+        <item name="colorSurface">@color/colorSurfaceDark</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textColorPrimary">@color/colorTextDark</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondaryDark</item>
+        <item name="android:textColorTertiary">@color/colorTextTertiaryDark</item>
+        <item name="colorOnBackground">@color/colorTextDark</item>
+        <item name="colorOnSurface">@color/colorTextDark</item>
+
+        <!-- Component styles with proper tint handling -->
+        <item name="materialCardViewStyle">@style/Widget.TaskMaster.Card.Dark</item>
+        <item name="textInputStyle">@style/Widget.TaskMaster.TextInputLayout.Dark</item>
+        <item name="android:itemBackground">@color/colorSurfaceDark</item>  <!-- Changed to surface color -->
+
+        <!-- Material components -->
+        <item name="materialButtonStyle">@style/Widget.TaskMaster.Button.Dark</item>
+        <item name="bottomNavigationStyle">@style/Widget.TaskMaster.BottomNavigation.Dark</item>
+        <item name="toolbarStyle">@style/Widget.TaskMaster.Toolbar.Dark</item>
+        <item name="actionBarStyle">@style/Widget.TaskMaster.ActionBar.Dark</item>
+
+        <!-- Tint adjustments -->
+        <item name="android:backgroundTint">@color/colorSurfaceDark</item>  <!-- Changed to surface -->
+        <item name="colorControlHighlight">@color/colorOverlayDark</item>  <!-- Subtle ripple effect -->
+    </style>
+
+    <!-- CardView with proper elevation and tint -->
+    <style name="Widget.TaskMaster.Card.Dark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardBackgroundColor">@color/colorSurfaceDark</item>
+        <item name="strokeColor">@color/colorDividerDark</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="rippleColor">@color/colorOverlayDark</item>  <!-- Using subtle overlay -->
+    </style>
+
+    <!-- TextInputLayout with proper tint handling -->
+    <style name="Widget.TaskMaster.TextInputLayout.Dark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorSecondaryDark</item>
+        <item name="hintTextColor">@color/colorTextSecondaryDark</item>
+        <item name="boxBackgroundColor">@color/colorSurfaceDark</item>
+        <item name="android:textColorHint">@color/colorTextSecondaryDark</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Button with proper tint states -->
+    <style name="Widget.TaskMaster.Button.Dark" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorSecondaryDark</item>
+        <item name="android:textColor">@color/colorOnSecondaryDark</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">@color/colorOverlayDark</item>
+    </style>
+
+    <!-- BottomNavigation with proper tint handling -->
+    <style name="Widget.TaskMaster.BottomNavigation.Dark" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">@color/colorSurfaceDark</item>
+        <item name="itemTextColor">@color/colorTextDark</item>
+        <item name="itemIconTint">@color/colorTextDark</item>
+        <item name="itemRippleColor">@color/colorOverlayDark</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.TaskMaster.BottomNavigation</item>
+    </style>
+
+    <style name="ThemeOverlay.TaskMaster.BottomNavigation" parent="">
+        <item name="colorPrimary">@color/colorSecondaryDark</item>
+        <item name="colorOnSurface">@color/colorTextDark</item>
+    </style>
+
+    <!-- Toolbar with proper tint handling -->
+    <style name="Widget.TaskMaster.Toolbar.Dark" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorSurfaceDark</item>
+        <item name="titleTextColor">@color/colorTextDark</item>
+        <item name="subtitleTextColor">@color/colorTextSecondaryDark</item>
+        <item name="navigationIconTint">@color/colorTextDark</item>
+        <item name="actionMenuTextColor">@color/colorTextDark</item>
+    </style>
+
+    <!-- ActionBar with proper tint -->
+    <style name="Widget.TaskMaster.ActionBar.Dark" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="android:background">@color/colorSurfaceDark</item>
+        <item name="titleTextStyle">@style/TextAppearance.TaskMaster.ActionBar.Title.Dark</item>
+    </style>
+
+    <!-- Enhanced ActionBar title -->
+    <style name="TextAppearance.TaskMaster.ActionBar.Title.Dark" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

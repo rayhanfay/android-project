@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BelajarKalkulator</string>
+    <string name="text_kalkulator">Kalkulator Sederhana</string>
+    <string name="txt_panjang">Panjang</string>
+    <string name="txt_lebar">Lebar</string>
+    <string name="txt_tinggi">Tinggi</string>
+    <string name="txt_hitung">Hitung</string>
+    <string name="txt_hapus">Hapus</string>
+    <string name="txt_hasil">Hasil Perhitungan</string>
+</resources>

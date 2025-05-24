@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Belajar ViewPager2</string>
+    <string name="order">PESAN</string>
+    <string name="next">Selanjutnya</string>
+    <string name="deliv">ANTAR</string>
+    <string name="accept">TERIMA</string>
+    <string name="finish">Selesai</string>
+    <string name="home">HALAMAN UTAMA</string>
+    <string name="start">Mulai</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

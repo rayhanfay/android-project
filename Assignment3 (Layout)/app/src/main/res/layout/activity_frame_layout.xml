@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_judul"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:gravity="center|top"
+        android:text="Frame Layout"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnKlik"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="8dp"
+        android:onClick="onClick"
+        android:text="Klik Disini\n\nHalaman 1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtTombol"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:text="Halaman 2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</FrameLayout>

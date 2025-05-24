@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inbox"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/inbox" />
+        <item
+            android:id="@+id/draft"
+            android:icon="@drawable/ic_draft"
+            android:title="@string/draft" />
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/ic_send"
+            android:title="@string/send" />
+    </group>
+    <item android:title="@string/controls">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_setting"
+                android:title="@string/setting" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/help" />
+        </menu>
+    </item>
+</menu>

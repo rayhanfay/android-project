@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362683716960",
+    "project_id": "rayandro-tugas12",
+    "storage_bucket": "rayandro-tugas12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362683716960:android:57c8f4bb4268902c73fa05",
+        "android_client_info": {
+          "package_name": "com.rayhan.tugas12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjgYGOVNCKNgSBndC-004txRK-4yyPLkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
